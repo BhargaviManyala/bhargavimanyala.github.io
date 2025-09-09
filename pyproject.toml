@@ -6,7 +6,7 @@ authors = [
     {name = "Bhargavi Manyala",email = "218624644+BhargaviManyala@users.noreply.github.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = "^3.11"
 dependencies = [
     "numpy (>=2.3.2,<3.0.0)",
     "pandas (>=2.3.2,<3.0.0)",
