@@ -3,10 +3,6 @@ title: "Assignment-01"
 subtitle: "System Information Proof"
 author: "Bhargavi Manyala"
 format: docx
-execute:
-  enabled: true
-  echo: false
-  output: true
 ---
 ```{python}
 import platform
