@@ -3,7 +3,6 @@ title: "Assignment-01"
 subtitle: "System Information Proof"
 author: "Bhargavi Manyala"
 format: docx
-jupyter: python3
 ---
 
 ```{python}
