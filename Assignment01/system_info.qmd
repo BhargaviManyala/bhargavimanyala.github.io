@@ -2,7 +2,7 @@
 title: "Assignment-01"
 subtitle: "System Information Proof"
 author: "Bhargavi Manyala"
-format: pdf
+format: docx
 execute:
   enabled: true
   echo: false
