@@ -2,11 +2,13 @@
 title: "Assignment-01"
 subtitle: "System Information Proof"
 author: "Bhargavi Manyala"
-format: docx
+format: pdf
+execute:
+  enabled: true
+  echo: false
+  output: true
 ---
-
 ```{python}
-#| echo: false
 import platform
 import psutil
 
@@ -17,3 +19,6 @@ print("Processor:", platform.processor())
 mem = psutil.virtual_memory()
 print("Total Memory (MB):", round(mem.total / (1024**2), 2))
 print("Available Memory (MB):", round(mem.available / (1024**2), 2))
+```
+
+
