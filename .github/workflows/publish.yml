@@ -25,6 +25,11 @@ jobs:
       - run: pip install jupyter
       - run: pip install -r requirements.txt
 
+      - name: Install TinyTeX
+        run: |
+          quarto install tinytex --update
+          sudo apt-get install -y ghostscript  # helpful for PDF support
+
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
