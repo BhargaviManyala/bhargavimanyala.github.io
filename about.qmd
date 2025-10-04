@@ -3,13 +3,3 @@ title: "About"
 ---
 
 About this site
-# 👋 Hi, I’m Bhargavi
-
-I’m a **Business Analytics Graduate Student** passionate about  
-**data-driven decision making, strategy, and technology**.
-
-🚀 Explore my portfolio through the tabs above:  
-- Learn more **About Me**  
-- See my **Projects**  
-- View my **CV**  
-- Get in **Contact**  
