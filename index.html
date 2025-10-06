@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome to my Site – Bhargavi Manyala</title>
+<title>Home | Bhargavi Manyala – Bhargavi Manyala</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -119,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome to my Site</h1>
+<h1 class="title">Home | Bhargavi Manyala</h1>
 </div>
 
 
@@ -136,84 +136,151 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<blockquote class="blockquote">
-
-</blockquote>
-<!-- Typing Animated Title -->
-<h1 class="typing-title">
-Hi! I’m Bhargavi
-</h1>
-<!-- Intro Text -->
-<p class="intro-text">
-👋 Hi, I’m a <strong>Business Analytics Graduate Student</strong> passionate about<br>
-<strong>data-driven decision making, strategy, and technology</strong>.<br><br> 🚀 Explore my portfolio through the tabs above:<br> – Learn more <strong>About Me</strong><br> – See my <strong>Projects</strong><br> – View my <strong>CV</strong><br> – Get in <strong>Contact</strong>
-</p>
-<!-- Custom CSS for font, typing animation, and styling -->
+<!-- Load Google Fonts -->
+<p><link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&amp;display=swap" rel="stylesheet"></p>
+<!-- Hero Section -->
+<div class="landing">
+<div class="intro-block">
+<pre><code>&lt;h1 class="fadein-title"&gt;Bhargavi Manyala&lt;/h1&gt;
+&lt;p class="tagline"&gt;Business Analyst · Applied Business Analytics · Boston University&lt;/p&gt;
+&lt;p class="summary"&gt;
+  Passionate about transforming complex data into simple, actionable insights.  
+  I use analytics, simulation, and visualization to turn business challenges into opportunities.
+&lt;/p&gt;
+&lt;div class="cta-buttons"&gt;
+  &lt;a href="projects.qmd"&gt;&lt;button class="btn primary"&gt;View Projects&lt;/button&gt;&lt;/a&gt;
+  &lt;a href="cv.qmd"&gt;&lt;button class="btn secondary"&gt;Download CV&lt;/button&gt;&lt;/a&gt;
+  &lt;a href="contact.qmd"&gt;&lt;button class="btn outline"&gt;Contact&lt;/button&gt;&lt;/a&gt;
+&lt;/div&gt;</code></pre>
+</div>
+<div class="photo-block">
+<pre><code>&lt;img src="images/profile.jpg" alt="Bhargavi Manyala" class="profile-pic"&gt;</code></pre>
+</div>
+</div>
+<!-- Custom CSS -->
 <style>
-/* Apply Open Sans */
-body, h1, p {
-  font-family: 'Open Sans', sans-serif;
+body {
+  font-family: 'Rubik', sans-serif;
+  background: linear-gradient(120deg, #f4f8fb 0%, #e8f3ff 100%);
+  color: #1a2b3c;
   margin: 0;
   padding: 0;
-  background-color: #f9fbfd;
+  height: 100vh;
 }
 
-/* Typing Animation */
-.typing-title {
-  color: #0b3d91;
-  font-weight: 700;
-  font-size: 2.8em;
+/* Hero container */
+.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
   text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 4px solid #2a9d8f; /* cursor effect */
-  width: 21ch; /* Adjust to match text length */
-  animation: typing 3s steps(21, end) forwards, blink 0.75s step-end infinite;
-  margin-top: 40px;
+  padding: 40px;
+}
+
+/* Text content */
+.intro-block {
+  flex: 1;
+  min-width: 320px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.fadein-title {
+  font-size: 3.2em;
+  font-weight: 700;
+  color: #154c79;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1.2em;
+  color: #2a9d8f;
+  font-weight: 500;
   margin-bottom: 25px;
 }
 
-/* Animate typing */
-@keyframes typing {
-  from { width: 0; }
-  to { width: 21ch; }
-}
-
-/* Blinking cursor */
-@keyframes blink {
-  50% { border-color: transparent; }
-}
-
-/* Paragraph styling */
-.intro-text {
-  color: #264653;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.7;
-  max-width: 750px;
+.summary {
+  max-width: 500px;
   margin: 0 auto;
+  font-size: 17px;
+  color: #3a4f64;
+  line-height: 1.6;
+}
+
+/* Profile photo */
+.photo-block {
+  flex: 1;
   text-align: center;
-  background-color: #ffffff;
-  padding: 25px 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
-/* Strong emphasis */
-.intro-text strong {
-  color: #0b3d91;
+.profile-pic {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid #2a9d8f;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  animation: float 4s ease-in-out infinite;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .typing-title {
-    font-size: 2.2em;
-    width: 100%;
-  }
-  .intro-text {
-    font-size: 16px;
-    padding: 20px;
-  }
+/* Buttons */
+.cta-buttons {
+  margin-top: 30px;
+}
+
+.btn {
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary {
+  background-color: #2a9d8f;
+  color: white;
+}
+
+.primary:hover {
+  background-color: #21867a;
+  transform: translateY(-2px);
+}
+
+.secondary {
+  background-color: #154c79;
+  color: white;
+}
+
+.secondary:hover {
+  background-color: #103c61;
+  transform: translateY(-2px);
+}
+
+.outline {
+  background-color: transparent;
+  border: 2px solid #2a9d8f;
+  color: #2a9d8f;
+}
+
+.outline:hover {
+  background-color: #2a9d8f;
+  color: white;
+}
+
+/* Animations */
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 </style>
 
