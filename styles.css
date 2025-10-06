@@ -2,7 +2,6 @@
 
 
 /* GLOBAL STYLE */
-/* GLOBAL STYLE */
 body {
   background-color: #FFF6B3 !important;  
   color: #333;
@@ -134,58 +133,62 @@ h1, h2, h3 {
 
 
 /* CONTACT PANEL */
-.contact-panel {
-  text-align: center;
-  margin: 90px auto 60px auto;
+/* CONTACT PAGE STYLING */
+.contact-section {
+  margin-top: 120px;
   max-width: 600px;
-  background-color: #ffffff;
-  border: 1px solid #e8e8e8;
-  border-radius: 20px;
-  padding: 45px 40px;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
 }
 
-.contact-panel h2 {
+.contact-section h1 {
+  text-align: center;
   color: #3a5bcc;
-  margin-bottom: 20px;
-  font-size: 1.6em;
+  font-size: 2.2em;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
-.contact-panel p {
+.contact-section p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 50px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.contact-item i {
+  font-size: 24px;
+  color: #3a5bcc;
+  transition: transform 0.2s ease;
+}
+
+.contact-item i.fa-linkedin { color: #0077b5; }
+.contact-item i.fa-github { color: #000; }
+
+.contact-item i:hover {
+  transform: scale(1.1);
+}
+
+.contact-item h3 {
+  margin: 0;
+  color: #222;
+  font-weight: 600;
+}
+
+.contact-item a {
   color: #555;
-  margin: 10px 0;
-  font-size: 1.05em;
-}
-
-.contact-panel i {
-  margin-right: 10px;
-  color: #ff8ac0;
-  font-size: 1.1em;
-}
-
-.contact-panel a {
-  color: #3a5bcc;
   text-decoration: none;
-  transition: color 0.3s;
 }
 
-.contact-panel a:hover {
-  color: #ff8ac0;
-}
-
-
-/* RESPONSIVE DESIGN */
-@media (max-width: 768px) {
-  .timeline::after {
-    left: 10px;
-  }
-  .timeline-item {
-    width: 100%;
-    padding-left: 40px;
-    text-align: left !important;
-  }
-  .timeline-item.left::before,
-  .timeline-item.right::before {
-    left: 15px;
-  }
+.contact-item a:hover {
+  color: #3a5bcc;
+  text-decoration: underline;
 }
