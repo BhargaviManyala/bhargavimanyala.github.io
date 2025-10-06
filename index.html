@@ -136,87 +136,38 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="{=html}">
-<!-- Load Font -->
+<!-- Load Google Fonts -->
 <p><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap" rel="stylesheet"></p>
-<!-- Main Section -->
-<div class="intro-section">
-<h1>
+<!-- Title -->
+<h1 style="color:#3a5bcc; font-family:'Poppins',sans-serif; font-size:2.8em; font-weight:700; text-align:center;">
 Hi, I’m Bhargavi
 </h1>
-<img src="images/bhargavi.jpg" alt="Bhargavi" class="profile-pic">
-<p class="intro-text">
-Passionate about turning data into insights and ideas through analysis and innovation.
+<!-- Centered Circular Photo -->
+<div style="text-align:center; margin:20px 0;">
+<p><img src="images/bhargavi.jpg" alt="Bhargavi" style="width:160px; height:160px; border-radius:50%; object-fit:cover; border:4px solid #a7c7ff; box-shadow:0 4px 12px rgba(150,180,255,0.3);"></p>
+</div>
+<!-- Tagline -->
+<p style="font-family:'Poppins',sans-serif; color:#555; font-size:1.1em; line-height:1.6; text-align:center; max-width:600px; margin:0 auto 30px;">
+Passionate about transforming data into meaningful insights and driving innovation through thoughtful analysis and design.
 </p>
-<p><a href="explore.html" class="explore-button">Explore Me →</a></p>
+<!-- Navigation Links -->
+<div style="text-align:center; margin-top:20px;">
+<p><a href="about.html" style="color:#3a5bcc; text-decoration:none; margin:0 15px; font-weight:600;">About</a> <a href="projects.html" style="color:#3a5bcc; text-decoration:none; margin:0 15px; font-weight:600;">Projects</a> <a href="cv.html" style="color:#3a5bcc; text-decoration:none; margin:0 15px; font-weight:600;">CV</a> <a href="contact.html" style="color:#3a5bcc; text-decoration:none; margin:0 15px; font-weight:600;">Contact</a></p>
 </div>
-<!-- Style -->
+<!-- Fade-in animation -->
 <style>
-body {
-  background-color: #f9fafc;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  color: #333;
-  margin: 0;
-}
-
-/* Main Section */
-.intro-section { margin-top: 60px; }
-
-/* Title */
-.intro-section h1 {
-  font-size: 2.6em;
-  font-weight: 700;
-  color: #3a5bcc;
-  margin-bottom: 20px;
-  opacity: 0;
-  animation: fadeIn 1s ease forwards;
-}
-
-/* Profile Picture */
-.profile-pic {
-  width: 160px; height: 160px; border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid #a7c7ff;
-  box-shadow: 0 4px 10px rgba(150, 180, 255, 0.3);
-  margin: 15px 0;
-  opacity: 0;
-  animation: fadeIn 1s ease forwards;
-  animation-delay: 0.4s;
-}
-
-/* Intro Line */
-.intro-text {
-  font-size: 1.1em; color: #555;
-  margin: 15px auto 30px; max-width: 600px; line-height: 1.6;
-  opacity: 0;
-  animation: fadeIn 1s ease forwards;
-  animation-delay: 0.8s;
-}
-
-/* Explore Button */
-.explore-button {
-  background-color: #3a5bcc; color: #fff;
-  padding: 12px 28px; border-radius: 8px; text-decoration: none; font-weight: 600;
-  opacity: 0; display: inline-block;
-  animation: fadeIn 1s ease forwards; animation-delay: 1.2s;
-}
-.explore-button:hover { background-color: #5f80ff; }
-
-/* Animation */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(15px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
-
-/* Mobile */
-@media (max-width: 600px) {
-  .intro-section h1 { font-size: 2.2em; }
-  .profile-pic { width: 130px; height: 130px; }
-  .intro-text { font-size: 1em; padding: 0 15px; }
+h1, img, p, a {
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
 }
+img { animation-delay: 0.3s; }
+p { animation-delay: 0.6s; }
+a { animation-delay: 0.9s; }
 </style>
-</div>
 
 
 
