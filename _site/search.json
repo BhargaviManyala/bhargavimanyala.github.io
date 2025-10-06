@@ -30,14 +30,14 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "My Projects",
+    "title": "Projects",
     "section": "",
-    "text": "Home About Projects CV Contact\n\n\n\n\n  \n  \n    🏗️ Crawford Development Risk Assessment\n    \n      Conducted risk and profitability analysis for residential and commercial projects using simulation models.\n      Simulated project NPVs under uncertain market conditions to assess loan repayment likelihood and project stability.\n      Recommended the commercial project for its steady, low-risk returns.\n    \n  \n\n  \n  \n    🏙️ Borough Park Real Estate Analysis\n    \n      Used Power BI, R, and Solver to analyze 10 years of property data.\n      Built predictive models (regression, time series) to forecast sales and prices, and used optimization to balance costs and improve profitability.\n    \n  \n\n  \n  \n    🔍 Monte Carlo Simulation\n    \n      Developed R-based Monte Carlo models to forecast uncertain profits and assess financial risk in strategic investment decisions."
+    "text": "Home About Projects CV Contact\n\n\n\n\n  \n  \n    🏗️ Crawford Development Risk Assessment\n    \n      Conducted risk and profitability analysis for residential and commercial projects using simulation models.\n      Simulated project NPVs under uncertain market conditions to assess loan repayment likelihood and project stability.\n      Recommended the commercial project for its steady, low-risk returns.\n    \n  \n\n  \n  \n    🏙️ Borough Park Real Estate Analysis\n    \n      Used Power BI, R, and Solver to analyze 10 years of property data.\n      Built predictive models (regression, time series) to forecast sales and prices, and used optimization to balance costs and improve profitability.\n    \n  \n\n  \n  \n    🍺 Microbrewery Integration for Austin-Detroit Pizza\n    \n      Evaluated the feasibility of adding a craft microbrewery to an existing pizza restaurant through marketing and finance simulations.\n      Forecasted revenue, optimized costs, and achieved a breakeven within 3.3 months by aligning production with seasonal demand.\n      Proposed staffing and growth roadmap for sustainable expansion."
   },
   {
     "objectID": "cv.html",
     "href": "cv.html",
-    "title": "My CV",
+    "title": "CV",
     "section": "",
     "text": "Home About Projects CV Contact\n\n\n\n  Experience\n  \n     📄 Resume Overview\n  \n\n  \n    \n      🛡️ Amazon — Abuse Specialist\n      Apr 2022 – Apr 2023\n      Investigated fraud, analyzed transactions, and improved reporting with SQL.\n    \n\n    \n      ⚖️ Verity — Legal & Compliance Trainee\n      Aug 2021 – Feb 2023\n      Supported governance reports and corporate documentation.\n    \n\n    \n      🏢 Rebridz Realtors — Investment Consultant\n      May 2020 – Jun 2020\n      Guided clients on property investments and ROI evaluation."
   },
