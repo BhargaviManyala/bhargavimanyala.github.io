@@ -10,7 +10,7 @@ show-title: true
 <nav style="position:fixed;top:0;width:100%;background:#fff;padding:12px 0;box-shadow:0 2px 6px rgba(0,0,0,0.05);text-align:center;">
   <a href="index.html" style="margin:0 15px;color:#3a5bcc;font-weight:600;text-decoration:none;">Home</a>
   <a href="about.html" style="margin:0 15px;color:#333;text-decoration:none;">About</a>
-  <a href="project.html" style="margin:0 15px;color:#333;text-decoration:none;">Projects</a>
+  <a href="projects.html" style="margin:0 15px;color:#333;text-decoration:none;">Projects</a>
   <a href="cv.html" style="margin:0 15px;color:#333;text-decoration:none;">CV</a>
   <a href="contact.html" style="margin:0 15px;color:#333;text-decoration:none;">Contact</a>
 </nav>
