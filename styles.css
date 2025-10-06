@@ -1,43 +1,196 @@
 /* css styles */
+
+/*  GLOBAL STYLING */
+
 body {
-  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  color: #2c3e50;
-  background-color: #ffffff;
-  line-height: 1.6;
-}
-
-.navbar {
-  font-weight: 600;
-  letter-spacing: 0.5px;
-}
-
-.navbar a {
-  color: #2c3e50 !important;
-}
-
-.navbar a:hover {
-  color: #007bff !important;
-  text-decoration: none;
+  background: radial-gradient(circle at top left, #1a1a2e, #16213e, #0f3460);
+  color: #f0f0f0;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3 {
-  font-weight: 700;
-  color: #2c3e50;
+  font-weight: 600;
+  margin: 0;
 }
 
-.btn-primary {
-  background-color: #007bff;
-  border-color: #007bff;
+
+/* TIMELINE SECTION */
+
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 70px auto;
+  padding: 40px 0;
 }
 
-.btn-primary:hover {
-  background-color: #0056b3;
-  border-color: #004a99;
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  background: linear-gradient(to bottom, #00e0ff, #ff00a6);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 0 12px #00e0ff;
 }
 
-footer {
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+
+.timeline-item.left {
+  left: 0;
+  text-align: right;
+}
+
+.timeline-item.right {
+  left: 50%;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  top: 25px;
+  width: 18px;
+  height: 18px;
+  background: linear-gradient(45deg, #ff00a6, #00e0ff);
+  border-radius: 50%;
+  box-shadow: 0 0 10px #00e0ff;
+}
+
+.timeline-item.left::before { right: -9px; }
+.timeline-item.right::before { left: -9px; }
+
+.timeline-item h3 {
+  color: #00e0ff;
+  font-size: 1.2em;
+  margin-bottom: 6px;
+  text-shadow: 0 0 6px rgba(0,224,255,0.6);
+}
+
+.timeline-item p {
+  color: #cfd3e3;
+  line-height: 1.6;
+}
+
+
+/* PROJECT SHOWCASE SECTION */
+
+.project-showcase {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  margin: 70px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+.project-card {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px rgba(0,224,255,0.4), 0 0 30px rgba(255,0,166,0.3);
+}
+
+.project-card h3 {
+  color: #00e0ff;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  color: #d6d9f0;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #ff00a6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project-card a:hover {
+  color: #00e0ff;
+  text-decoration: underline;
+}
+
+
+/* CONTACT PANEL (GLASS STYLE) */
+
+.contact-panel {
   text-align: center;
-  padding: 20px;
-  font-size: 0.9rem;
-  color: #777;
+  margin: 90px auto 60px auto;
+  max-width: 600px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 20px;
+  padding: 45px 40px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+.contact-panel h2 {
+  color: #00e0ff;
+  margin-bottom: 20px;
+  font-size: 1.6em;
+  text-shadow: 0 0 8px #00e0ff;
+}
+
+.contact-panel p {
+  color: #d6d9f0;
+  margin: 10px 0;
+  font-size: 1.05em;
+}
+
+.contact-panel i {
+  margin-right: 10px;
+  color: #ff00a6;
+  font-size: 1.1em;
+}
+
+.contact-panel a {
+  color: #00e0ff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-panel a:hover {
+  color: #ff00a6;
+  text-shadow: 0 0 6px #ff00a6;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+  .timeline::after {
+    left: 10px;
+  }
+  .timeline-item {
+    width: 100%;
+    padding-left: 40px;
+    text-align: left !important;
+  }
+  .timeline-item.left::before,
+  .timeline-item.right::before {
+    left: 15px;
+  }
 }
