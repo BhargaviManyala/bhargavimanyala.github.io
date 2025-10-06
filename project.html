@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -111,9 +111,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -136,50 +134,33 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<!-- Font -->
-<p><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap" rel="stylesheet"></p>
 <!-- Navigation -->
-<nav style="position:fixed;top:0;width:100%;background:#fff;padding:12px 0;box-shadow:0 2px 6px rgba(0,0,0,0.05);text-align:center;">
-<a href="index.html" style="margin:0 15px;color:#333;text-decoration:none;">Home</a> <a href="about.html" style="margin:0 15px;color:#333;text-decoration:none;">About</a> <a href="projects.html" style="margin:0 15px;color:#3a5bcc;font-weight:600;text-decoration:none;">Projects</a> <a href="cv.html" style="margin:0 15px;color:#333;text-decoration:none;">CV</a> <a href="contact.html" style="margin:0 15px;color:#333;text-decoration:none;">Contact</a>
+<nav style="position:fixed;top:0;width:100%;background:#fff;padding:12px 0;box-shadow:0 2px 6px rgba(0,0,0,0.05);text-align:center;z-index:10;">
+<a href="index.html" style="margin:0 15px;color:#333;text-decoration:none;">Home</a> <a href="about.html" style="margin:0 15px;color:#333;text-decoration:none;">About</a> <a href="project.html" style="margin:0 15px;color:#3a5bcc;font-weight:600;text-decoration:none;">Projects</a> <a href="cv.html" style="margin:0 15px;color:#333;text-decoration:none;">CV</a> <a href="contact.html" style="margin:0 15px;color:#333;text-decoration:none;">Contact</a>
 </nav>
-<!-- Content -->
-<div style="text-align:center;margin-top:120px;font-family:'Poppins',sans-serif;">
-<h1 style="color:#3a5bcc;font-size:2.4em;font-weight:700;animation:fadeIn 1s;">
-Projects
-</h1>
-<p style="color:#555;font-size:1.1em;margin-bottom:40px;">
-Here are a few projects that showcase my work in Business Analytics and Data Insights.
-</p>
-<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:20px;max-width:900px;margin:auto;">
-<pre><code>&lt;!-- Project 1 --&gt;
-&lt;div style="background:#fff;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.05);padding:20px;width:250px;animation:fadeIn 1s;"&gt;
-  &lt;h3 style="color:#3a5bcc;"&gt;Microbrewery Analysis&lt;/h3&gt;
-  &lt;p style="color:#555;font-size:0.95em;"&gt;Designed a feasibility model for a new in-house brewery using demand simulation and financial projections.&lt;/p&gt;
-  &lt;a href="#" style="color:#3a5bcc;text-decoration:none;font-weight:600;"&gt;View Project →&lt;/a&gt;
-&lt;/div&gt;
+<div class="project-cards" style="margin-top:120px;display:flex;flex-wrap:wrap;justify-content:center;gap:20px;max-width:900px;margin-left:auto;margin-right:auto;font-family:'Poppins',sans-serif;">
 
-&lt;!-- Project 2 --&gt;
-&lt;div style="background:#fff;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.05);padding:20px;width:250px;animation:fadeIn 1s;"&gt;
-  &lt;h3 style="color:#3a5bcc;"&gt;Portfolio Optimization&lt;/h3&gt;
-  &lt;p style="color:#555;font-size:0.95em;"&gt;Simulated and optimized stock portfolios using Python to minimize risk and maximize expected return.&lt;/p&gt;
-  &lt;a href="#" style="color:#3a5bcc;text-decoration:none;font-weight:600;"&gt;View Project →&lt;/a&gt;
-&lt;/div&gt;
+  <div class="project-card" style="background:#fff;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.05);padding:20px;width:250px;">
+    <h3 style="color:#3a5bcc;" class="anchored">🍺 Microbrewery Business Case</h3>
+    <p style="color:#555;">Developed a feasibility model using demand simulation and financial forecasting for a new microbrewery in Austin.</p>
+  </div>
 
-&lt;!-- Project 3 --&gt;
-&lt;div style="background:#fff;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.05);padding:20px;width:250px;animation:fadeIn 1s;"&gt;
-  &lt;h3 style="color:#3a5bcc;"&gt;SQL Data Dashboard&lt;/h3&gt;
-  &lt;p style="color:#555;font-size:0.95em;"&gt;Built an interactive dashboard integrating SQL and Power BI to visualize business KPIs for decision-making.&lt;/p&gt;
-  &lt;a href="#" style="color:#3a5bcc;text-decoration:none;font-weight:600;"&gt;View Project →&lt;/a&gt;
-&lt;/div&gt;</code></pre>
+  <div class="project-card" style="background:#fff;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.05);padding:20px;width:250px;">
+    <h3 style="color:#3a5bcc;" class="anchored">📊 Portfolio Optimization</h3>
+    <p style="color:#555;">Used Python to simulate and optimize investment portfolios for improved risk-adjusted returns using mean-variance analysis.</p>
+  </div>
+
+  <div class="project-card" style="background:#fff;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.05);padding:20px;width:250px;">
+    <h3 style="color:#3a5bcc;" class="anchored">📈 SQL Dashboard Insights</h3>
+    <p style="color:#555;">Created Power BI dashboards with SQL integration to visualize and track key performance metrics for business analytics.</p>
+  </div>
+
+  <div class="project-card" style="background:#fff;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.05);padding:20px;width:250px;">
+    <h3 style="color:#3a5bcc;" class="anchored">🔍 Monte Carlo Simulation</h3>
+    <p style="color:#555;">Applied Monte Carlo methods in R to model uncertainty in financial projections and support strategic investment decisions.</p>
+  </div>
+
 </div>
-</div>
-<!-- Animation -->
-<style>
-@keyframes fadeIn {
-  from {opacity:0;transform:translateY(10px);}
-  to {opacity:1;transform:translateY(0);}
-}
-</style>
 
 
 
