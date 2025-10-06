@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://BhargaviManyala.github.io/bhargavimanyala.github.io/about.html</loc>
-    <lastmod>2025-10-06T17:50:17.701Z</lastmod>
+    <loc>https://BhargaviManyala.github.io/bhargavimanyala.github.io/projects.html</loc>
+    <lastmod>2025-10-06T19:43:34.734Z</lastmod>
   </url>
   <url>
     <loc>https://BhargaviManyala.github.io/bhargavimanyala.github.io/index.html</loc>
-    <lastmod>2025-10-06T17:50:17.702Z</lastmod>
+    <lastmod>2025-10-06T19:43:34.734Z</lastmod>
+  </url>
+  <url>
+    <loc>https://BhargaviManyala.github.io/bhargavimanyala.github.io/about.html</loc>
+    <lastmod>2025-10-06T19:43:34.733Z</lastmod>
   </url>
 </urlset>
