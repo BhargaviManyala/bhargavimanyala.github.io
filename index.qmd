@@ -1,9 +1,99 @@
 ---
-title: "My Portfolio Website"
+title: "Welcome to my Site"
+show-title: false
 ---
+<!-- Load Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 
-This is a Quarto website.
+<!-- Typing Animated Title -->
+<h1 class="typing-title">Hi! I'm Bhargavi Manyala</h1>
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+<!-- Centered Circular Photo -->
+<div style="text-align:center; margin-bottom:20px;">
+  <img src="images/profile.jpg" alt="Bhargavi Manyala" style="width:160px; height:160px; border-radius:50%; object-fit:cover; box-shadow:0 4px 15px rgba(0,0,0,0.2);">
+</div>
+
+<!-- Intro Text -->
+<p class="intro-text">
+👋 Hi, I’m <strong>Bhargavi</strong><br><br>
+I’m a <strong>Business Analytics Graduate Student</strong> passionate about  
+<strong>data-driven decision making, strategy, and technology</strong>.<br><br>
+🚀 Explore my portfolio through the tabs above:<br>
+– Learn more <strong>About Me</strong><br>
+– See my <strong>Projects</strong><br>
+– View my <strong>CV</strong><br>
+– Get in <strong>Contact</strong>
+</p>
+
+<!-- Custom CSS for font, typing animation, and styling -->
+<style>
+/* Apply Open Sans */
+body, h1, p {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9fbfd;
+}
+
+/* Typing Animation */
+.typing-title {
+  color: #0b3d91;
+  font-weight: 700;
+  font-size: 2.8em;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid #2a9d8f; /* cursor effect */
+  width: 21ch; /* Adjust to match text length */
+  animation: typing 3s steps(21, end) forwards, blink 0.75s step-end infinite;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+/* Animate typing */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 21ch; }
+}
+
+/* Blinking cursor */
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+/* Paragraph styling */
+.intro-text {
+  color: #264653;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Strong emphasis */
+.intro-text strong {
+  color: #0b3d91;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .typing-title {
+    font-size: 2.2em;
+    width: 100%;
+  }
+  .intro-text {
+    font-size: 16px;
+    padding: 20px;
+  }
+}
+</style>
+
+
 
 
