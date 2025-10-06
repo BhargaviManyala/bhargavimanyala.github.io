@@ -4,7 +4,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Home About Projects CV Contact\n\n\n\n  \n    🍺 Microbrewery Business Case\n    Developed a feasibility model using demand simulation and financial forecasting for a new microbrewery in Austin.\n  \n\n  \n    📊 Portfolio Optimization\n    Used Python to simulate and optimize investment portfolios for improved risk-adjusted returns using mean-variance analysis.\n  \n\n  \n    📈 SQL Dashboard Insights\n    Created Power BI dashboards with SQL integration to visualize and track key performance metrics for business analytics.\n  \n\n  \n    🔍 Monte Carlo Simulation\n    Applied Monte Carlo methods in R to model uncertainty in financial projections and support strategic investment decisions."
+    "text": "Home About Projects CV Contact\n\n\n\n\n  \n  \n    🏗️ Crawford Development Risk Assessment\n    \n      Conducted risk and profitability analysis for residential and commercial projects using simulation models.\n      Simulated project NPVs under uncertain market conditions to assess loan repayment likelihood and project stability.\n      Recommended the commercial project for its steady, low-risk returns.\n    \n  \n\n  \n  \n    🏙️ Borough Park Real Estate Analysis\n    \n      Used Power BI, R, and Solver to analyze 10 years of property data.\n      Built predictive models (regression, time series) to forecast sales and prices, and used optimization to balance costs and improve profitability.\n    \n  \n\n  \n  \n    🔍 Monte Carlo Simulation\n    \n      Developed R-based Monte Carlo models to forecast uncertain profits and assess financial risk in strategic investment decisions."
   },
   {
     "objectID": "index.html",
