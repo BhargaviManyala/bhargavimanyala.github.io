@@ -1,9 +1,10 @@
 /* css styles */
 
 /* GLOBAL STYLE */
+/* GLOBAL STYLE */
 body {
-  background: linear-gradient(180deg, #ffffff 0%, #fdfbff 50%, #f8fbff 100%);
-  color: #3a3a3a;
+  background-color: #f9fafc; /* soft neutral light */
+  color: #333;               /* readable neutral text */
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
@@ -13,7 +14,7 @@ body {
 h1, h2, h3 {
   font-weight: 600;
   margin: 0;
-  color: #4b74ff;
+  color: #3a5bcc; /* calm soft blue accent */
 }
 
 
@@ -29,12 +30,12 @@ h1, h2, h3 {
   content: '';
   position: absolute;
   width: 3px;
-  background: linear-gradient(to bottom, #8ddcff, #ffb7e5);
+  background-color: #a7c7ff; /* pale pastel blue line */
   top: 0;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  box-shadow: 0 0 8px rgba(173, 216, 255, 0.5);
+  border-radius: 3px;
 }
 
 .timeline-item {
@@ -57,19 +58,20 @@ h1, h2, h3 {
   content: '';
   position: absolute;
   top: 25px;
-  width: 18px;
-  height: 18px;
-  background: linear-gradient(45deg, #ffb7e5, #8ddcff);
+  width: 16px;
+  height: 16px;
+  background-color: #ffd6ec; /* soft pink point */
+  border: 3px solid #a7c7ff;
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(141, 220, 255, 0.7);
+  box-shadow: 0 0 6px rgba(167, 199, 255, 0.7);
 }
 
 .timeline-item.left::before { right: -9px; }
 .timeline-item.right::before { left: -9px; }
 
 .timeline-item h3 {
-  color: #5a6bff;
-  font-size: 1.2em;
+  color: #3a5bcc;
+  font-size: 1.15em;
   margin-bottom: 6px;
 }
 
@@ -90,21 +92,21 @@ h1, h2, h3 {
 }
 
 .project-card {
-  background: #ffffff;
-  border: 1px solid rgba(230, 230, 230, 0.8);
+  background-color: #ffffff;
+  border: 1px solid #e8e8e8;
   border-radius: 16px;
   padding: 25px;
-  box-shadow: 0 6px 20px rgba(240, 240, 240, 0.9);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
 }
 
 .project-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 30px rgba(200, 230, 255, 0.6), 0 8px 20px rgba(255, 210, 230, 0.4);
+  transform: translateY(-5px);
+  box-shadow: 0 5px 18px rgba(170, 200, 255, 0.3);
 }
 
 .project-card h3 {
-  color: #5a6bff;
+  color: #3a5bcc;
   font-size: 1.1em;
   margin-bottom: 10px;
 }
@@ -118,13 +120,13 @@ h1, h2, h3 {
 .project-card a {
   display: inline-block;
   margin-top: 10px;
-  color: #ff7cc2;
+  color: #ff8ac0;
   text-decoration: none;
   font-weight: 500;
 }
 
 .project-card a:hover {
-  color: #4b74ff;
+  color: #3a5bcc;
   text-decoration: underline;
 }
 
@@ -134,16 +136,15 @@ h1, h2, h3 {
   text-align: center;
   margin: 90px auto 60px auto;
   max-width: 600px;
-  background: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(230, 230, 230, 0.9);
+  background-color: #ffffff;
+  border: 1px solid #e8e8e8;
   border-radius: 20px;
   padding: 45px 40px;
-  backdrop-filter: blur(15px);
-  box-shadow: 0 0 25px rgba(235, 245, 255, 0.6);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
 }
 
 .contact-panel h2 {
-  color: #4b74ff;
+  color: #3a5bcc;
   margin-bottom: 20px;
   font-size: 1.6em;
 }
@@ -156,19 +157,18 @@ h1, h2, h3 {
 
 .contact-panel i {
   margin-right: 10px;
-  color: #ff7cc2;
+  color: #ff8ac0;
   font-size: 1.1em;
 }
 
 .contact-panel a {
-  color: #4b74ff;
+  color: #3a5bcc;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .contact-panel a:hover {
-  color: #ff7cc2;
-  text-shadow: 0 0 4px #ffb7e5;
+  color: #ff8ac0;
 }
 
 
