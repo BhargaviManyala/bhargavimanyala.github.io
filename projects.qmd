@@ -1,5 +1,5 @@
 ---
-title: "My Projects"
+title: "Projects"
 show-title: true
 toc: false
 ---
