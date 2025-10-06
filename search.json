@@ -5,12 +5,5 @@
     "title": "About",
     "section": "",
     "text": "About this site"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home | Bhargavi Manyala",
-    "section": "",
-    "text": "&lt;h1 class=\"fadein-title\"&gt;Bhargavi Manyala&lt;/h1&gt;\n&lt;p class=\"tagline\"&gt;Business Analyst · Applied Business Analytics · Boston University&lt;/p&gt;\n&lt;p class=\"summary\"&gt;\n  Passionate about transforming complex data into simple, actionable insights.  \n  I use analytics, simulation, and visualization to turn business challenges into opportunities.\n&lt;/p&gt;\n&lt;div class=\"cta-buttons\"&gt;\n  &lt;a href=\"projects.qmd\"&gt;&lt;button class=\"btn primary\"&gt;View Projects&lt;/button&gt;&lt;/a&gt;\n  &lt;a href=\"cv.qmd\"&gt;&lt;button class=\"btn secondary\"&gt;Download CV&lt;/button&gt;&lt;/a&gt;\n  &lt;a href=\"contact.qmd\"&gt;&lt;button class=\"btn outline\"&gt;Contact&lt;/button&gt;&lt;/a&gt;\n&lt;/div&gt;\n\n\n&lt;img src=\"images/profile.jpg\" alt=\"Bhargavi Manyala\" class=\"profile-pic\"&gt;"
   }
 ]
