@@ -136,109 +136,87 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<!-- Load Google Font -->
+<div class="{=html}">
+<!-- Load Font -->
 <p><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap" rel="stylesheet"></p>
-<!-- Centered Section -->
+<!-- Main Section -->
 <div class="intro-section">
 <h1>
 Hi, I’m Bhargavi
 </h1>
-<p><img src="images/bhargavi.jpg" alt="Bhargavi" class="profile-pic"></p>
+<img src="images/bhargavi.jpg" alt="Bhargavi" class="profile-pic">
 <p class="intro-text">
-Passionate about transforming ideas into impactful solutions through innovation and thoughtful design.
+Passionate about turning ideas into impactful solutions through innovation and design.
 </p>
-<div class="button-container">
-<pre><code>&lt;a href="explore.html" class="explore-button"&gt;Explore Me →&lt;/a&gt;</code></pre>
+<p><a href="explore.html" class="explore-button">Explore Me →</a></p>
 </div>
-</div>
-<!-- Light Theme Styling -->
+<!-- Style -->
 <style>
 body {
   background-color: #f9fafc;
   font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
   text-align: center;
   color: #333;
+  margin: 0;
 }
 
-/* Title Section */
-.quarto-title-banner {
-  background-color: #ffffff !important;
-  border-bottom: 1px solid #e0e0e0;
-  padding: 20px 0;
-}
-.quarto-title h1.title {
-  color: #3a5bcc;
-  font-weight: 700;
-  font-size: 2.2em;
-}
+/* Main Section */
+.intro-section { margin-top: 60px; }
 
-/* Intro Section */
-.intro-section {
-  margin-top: 60px;
-}
-
-/* Greeting */
+/* Title */
 .intro-section h1 {
-  font-size: 2.8em;
+  font-size: 2.6em;
   font-weight: 700;
   color: #3a5bcc;
   margin-bottom: 20px;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
 }
 
-/* Profile Image */
+/* Profile Picture */
 .profile-pic {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
+  width: 160px; height: 160px; border-radius: 50%;
   object-fit: cover;
   border: 4px solid #a7c7ff;
-  box-shadow: 0 4px 12px rgba(150, 180, 255, 0.3);
-  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(150, 180, 255, 0.3);
+  margin: 15px 0;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 0.4s;
 }
 
-/* Intro Text */
+/* Intro Line */
 .intro-text {
-  font-size: 1.1em;
-  color: #555;
-  max-width: 600px;
-  margin: 0 auto 35px auto;
-  line-height: 1.6;
+  font-size: 1.1em; color: #555;
+  margin: 15px auto 30px; max-width: 600px; line-height: 1.6;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 0.8s;
 }
 
 /* Explore Button */
 .explore-button {
-  display: inline-block;
-  background-color: #3a5bcc;
-  color: white;
-  padding: 12px 28px;
-  font-size: 1em;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  background-color: #3a5bcc; color: #fff;
+  padding: 12px 28px; border-radius: 8px; text-decoration: none; font-weight: 600;
+  opacity: 0; display: inline-block;
+  animation: fadeIn 1s ease forwards; animation-delay: 1.2s;
+}
+.explore-button:hover { background-color: #5f80ff; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
-.explore-button:hover {
-  background-color: #5f80ff;
-  transform: translateY(-3px);
-}
-
-/* Responsive */
+/* Mobile */
 @media (max-width: 600px) {
-  .intro-section h1 {
-    font-size: 2.2em;
-  }
-  .profile-pic {
-    width: 130px;
-    height: 130px;
-  }
-  .intro-text {
-    font-size: 1em;
-    padding: 0 20px;
-  }
+  .intro-section h1 { font-size: 2.2em; }
+  .profile-pic { width: 130px; height: 130px; }
+  .intro-text { font-size: 1em; padding: 0 15px; }
 }
 </style>
+</div>
 
 
 
