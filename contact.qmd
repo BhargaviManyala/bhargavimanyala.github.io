@@ -1,0 +1,57 @@
+---
+title: "Contact"
+show-title: true
+---
+
+```{=html}
+<!-- Load Fonts and Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- Navigation -->
+<nav style="position:fixed;top:0;width:100%;background:#fff;padding:12px 0;
+box-shadow:0 2px 6px rgba(0,0,0,0.05);text-align:center;z-index:10;">
+  <a href="index.html" style="margin:0 15px;color:#333;text-decoration:none;">Home</a>
+  <a href="about.html" style="margin:0 15px;color:#333;text-decoration:none;">About</a>
+  <a href="projects.html" style="margin:0 15px;color:#333;text-decoration:none;">Projects</a>
+  <a href="cv.html" style="margin:0 15px;color:#333;text-decoration:none;">CV</a>
+  <a href="contact.html" style="margin:0 15px;color:#3a5bcc;font-weight:600;text-decoration:none;">Contact</a>
+</nav>
+
+<!-- Contact Section -->
+<section class="contact-section">
+  <h1>Contact</h1>
+  <p>Get in touch with me</p>
+
+  <!-- Email -->
+  <div class="contact-item">
+    <i class="fa-solid fa-envelope"></i>
+    <div>
+      <h3>Email</h3>
+      <a href="mailto:bhargavim8000@gmail.com">bhargavim8000@gmail.com</a>
+    </div>
+  </div>
+
+  <!-- LinkedIn -->
+  <div class="contact-item">
+    <i class="fa-brands fa-linkedin"></i>
+    <div>
+      <h3>LinkedIn</h3>
+      <a href="https://www.linkedin.com/in/bhargavi-manyala-12a12a2ab/" target="_blank">
+        linkedin.com/in/bhargavi-manyala
+      </a>
+    </div>
+  </div>
+
+  <!-- GitHub -->
+  <div class="contact-item">
+    <i class="fa-brands fa-github"></i>
+    <div>
+      <h3>GitHub</h3>
+      <a href="https://github.com/BhargaviManyala" target="_blank">
+        github.com/BhargaviManyala
+      </a>
+    </div>
+  </div>
+</section>
+```
