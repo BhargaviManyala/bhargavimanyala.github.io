@@ -1,10 +1,9 @@
 /* css styles */
 
-/*  GLOBAL STYLING */
-
+/* GLOBAL STYLE */
 body {
-  background: radial-gradient(circle at top left, #1a1a2e, #16213e, #0f3460);
-  color: #f0f0f0;
+  background: linear-gradient(180deg, #ffffff 0%, #fdfbff 50%, #f8fbff 100%);
+  color: #3a3a3a;
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
@@ -14,11 +13,11 @@ body {
 h1, h2, h3 {
   font-weight: 600;
   margin: 0;
+  color: #4b74ff;
 }
 
 
 /* TIMELINE SECTION */
-
 .timeline {
   position: relative;
   max-width: 900px;
@@ -30,12 +29,12 @@ h1, h2, h3 {
   content: '';
   position: absolute;
   width: 3px;
-  background: linear-gradient(to bottom, #00e0ff, #ff00a6);
+  background: linear-gradient(to bottom, #8ddcff, #ffb7e5);
   top: 0;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  box-shadow: 0 0 12px #00e0ff;
+  box-shadow: 0 0 8px rgba(173, 216, 255, 0.5);
 }
 
 .timeline-item {
@@ -60,29 +59,27 @@ h1, h2, h3 {
   top: 25px;
   width: 18px;
   height: 18px;
-  background: linear-gradient(45deg, #ff00a6, #00e0ff);
+  background: linear-gradient(45deg, #ffb7e5, #8ddcff);
   border-radius: 50%;
-  box-shadow: 0 0 10px #00e0ff;
+  box-shadow: 0 0 10px rgba(141, 220, 255, 0.7);
 }
 
 .timeline-item.left::before { right: -9px; }
 .timeline-item.right::before { left: -9px; }
 
 .timeline-item h3 {
-  color: #00e0ff;
+  color: #5a6bff;
   font-size: 1.2em;
   margin-bottom: 6px;
-  text-shadow: 0 0 6px rgba(0,224,255,0.6);
 }
 
 .timeline-item p {
-  color: #cfd3e3;
+  color: #555;
   line-height: 1.6;
 }
 
 
-/* PROJECT SHOWCASE SECTION */
-
+/* PROJECT SHOWCASE */
 .project-showcase {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -93,28 +90,27 @@ h1, h2, h3 {
 }
 
 .project-card {
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.15);
+  background: #ffffff;
+  border: 1px solid rgba(230, 230, 230, 0.8);
   border-radius: 16px;
   padding: 25px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
-  backdrop-filter: blur(10px);
+  box-shadow: 0 6px 20px rgba(240, 240, 240, 0.9);
   transition: all 0.3s ease;
 }
 
 .project-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 0 20px rgba(0,224,255,0.4), 0 0 30px rgba(255,0,166,0.3);
+  box-shadow: 0 8px 30px rgba(200, 230, 255, 0.6), 0 8px 20px rgba(255, 210, 230, 0.4);
 }
 
 .project-card h3 {
-  color: #00e0ff;
+  color: #5a6bff;
   font-size: 1.1em;
   margin-bottom: 10px;
 }
 
 .project-card p {
-  color: #d6d9f0;
+  color: #666;
   font-size: 0.95em;
   line-height: 1.5;
 }
@@ -122,64 +118,61 @@ h1, h2, h3 {
 .project-card a {
   display: inline-block;
   margin-top: 10px;
-  color: #ff00a6;
+  color: #ff7cc2;
   text-decoration: none;
   font-weight: 500;
 }
 
 .project-card a:hover {
-  color: #00e0ff;
+  color: #4b74ff;
   text-decoration: underline;
 }
 
 
-/* CONTACT PANEL (GLASS STYLE) */
-
+/* CONTACT PANEL */
 .contact-panel {
   text-align: center;
   margin: 90px auto 60px auto;
   max-width: 600px;
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(230, 230, 230, 0.9);
   border-radius: 20px;
   padding: 45px 40px;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 25px rgba(235, 245, 255, 0.6);
 }
 
 .contact-panel h2 {
-  color: #00e0ff;
+  color: #4b74ff;
   margin-bottom: 20px;
   font-size: 1.6em;
-  text-shadow: 0 0 8px #00e0ff;
 }
 
 .contact-panel p {
-  color: #d6d9f0;
+  color: #555;
   margin: 10px 0;
   font-size: 1.05em;
 }
 
 .contact-panel i {
   margin-right: 10px;
-  color: #ff00a6;
+  color: #ff7cc2;
   font-size: 1.1em;
 }
 
 .contact-panel a {
-  color: #00e0ff;
+  color: #4b74ff;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .contact-panel a:hover {
-  color: #ff00a6;
-  text-shadow: 0 0 6px #ff00a6;
+  color: #ff7cc2;
+  text-shadow: 0 0 4px #ffb7e5;
 }
 
 
 /* RESPONSIVE DESIGN */
-
 @media (max-width: 768px) {
   .timeline::after {
     left: 10px;
