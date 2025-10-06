@@ -12,5 +12,12 @@
     "title": "Welcome to My Site",
     "section": "",
     "text": "Home About Projects CV Contact\n\n\n\n\nHi, I’m Bhargavi\n\n\n\nPassionate about transforming data into meaningful insights and driving innovation through thoughtful analysis and design."
+  },
+  {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Home About Projects CV Contact\n\n\n\n\nProjects\n\n\nHere are a few projects that showcase my work in Business Analytics and Data Insights.\n\n\n&lt;!-- Project 1 --&gt;\n&lt;div style=\"background:#fff;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.05);padding:20px;width:250px;animation:fadeIn 1s;\"&gt;\n  &lt;h3 style=\"color:#3a5bcc;\"&gt;Microbrewery Analysis&lt;/h3&gt;\n  &lt;p style=\"color:#555;font-size:0.95em;\"&gt;Designed a feasibility model for a new in-house brewery using demand simulation and financial projections.&lt;/p&gt;\n  &lt;a href=\"#\" style=\"color:#3a5bcc;text-decoration:none;font-weight:600;\"&gt;View Project →&lt;/a&gt;\n&lt;/div&gt;\n\n&lt;!-- Project 2 --&gt;\n&lt;div style=\"background:#fff;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.05);padding:20px;width:250px;animation:fadeIn 1s;\"&gt;\n  &lt;h3 style=\"color:#3a5bcc;\"&gt;Portfolio Optimization&lt;/h3&gt;\n  &lt;p style=\"color:#555;font-size:0.95em;\"&gt;Simulated and optimized stock portfolios using Python to minimize risk and maximize expected return.&lt;/p&gt;\n  &lt;a href=\"#\" style=\"color:#3a5bcc;text-decoration:none;font-weight:600;\"&gt;View Project →&lt;/a&gt;\n&lt;/div&gt;\n\n&lt;!-- Project 3 --&gt;\n&lt;div style=\"background:#fff;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.05);padding:20px;width:250px;animation:fadeIn 1s;\"&gt;\n  &lt;h3 style=\"color:#3a5bcc;\"&gt;SQL Data Dashboard&lt;/h3&gt;\n  &lt;p style=\"color:#555;font-size:0.95em;\"&gt;Built an interactive dashboard integrating SQL and Power BI to visualize business KPIs for decision-making.&lt;/p&gt;\n  &lt;a href=\"#\" style=\"color:#3a5bcc;text-decoration:none;font-weight:600;\"&gt;View Project →&lt;/a&gt;\n&lt;/div&gt;"
   }
 ]
