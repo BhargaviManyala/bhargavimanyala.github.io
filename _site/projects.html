@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects</title>
+<title>My Projects</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -120,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">My Projects</h1>
 </div>
 
 
@@ -145,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="project-cards" style="margin-top:120px;display:flex;flex-wrap:wrap;justify-content:center;gap:20px;max-width:900px;margin-left:auto;margin-right:auto;font-family:'Poppins',sans-serif;">
 
   <!-- Crawford Development -->
-  <div class="project-card" style="background:#fff;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.05);padding:20px;width:280px;">
+  <div class="project-card" style="background:#fff;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.05);padding:20px;width:280px;opacity:0;animation:fadeIn 1s ease forwards;">
     <h3 style="color:#3a5bcc;" class="anchored">🏗️ Crawford Development Risk Assessment</h3>
     <p style="color:#555;">
       Conducted risk and profitability analysis for residential and commercial projects using simulation models.
@@ -155,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
 
   <!-- Borough Park -->
-  <div class="project-card" style="background:#fff;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.05);padding:20px;width:280px;">
+  <div class="project-card" style="background:#fff;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.05);padding:20px;width:280px;opacity:0;animation:fadeIn 1s ease forwards;animation-delay:0.3s;">
     <h3 style="color:#3a5bcc;" class="anchored">🏙️ Borough Park Real Estate Analysis</h3>
     <p style="color:#555;">
       Used Power BI, R, and Solver to analyze 10 years of property data.
@@ -164,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
 
   <!-- Monte Carlo -->
-  <div class="project-card" style="background:#fff;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.05);padding:20px;width:280px;">
+  <div class="project-card" style="background:#fff;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.05);padding:20px;width:280px;opacity:0;animation:fadeIn 1s ease forwards;animation-delay:0.6s;">
     <h3 style="color:#3a5bcc;" class="anchored">🔍 Monte Carlo Simulation</h3>
     <p style="color:#555;">
       Developed R-based Monte Carlo models to forecast uncertain profits and assess financial risk in strategic investment decisions.
@@ -172,6 +172,14 @@ ul.task-list li input[type="checkbox"] {
   </div>
 
 </div>
+
+<!-- Simple Animation -->
+<style>
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+</style>
 
 
 
