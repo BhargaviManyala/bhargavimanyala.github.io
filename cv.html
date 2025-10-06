@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>cv</title>
+<title>My CV</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -124,11 +124,122 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">My CV</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<!-- Navbar -->
+<nav style="position:fixed;top:0;width:100%;background:#fff;padding:12px 0;
+box-shadow:0 2px 6px rgba(0,0,0,0.05);text-align:center;z-index:10;">
+<a href="index.html" style="margin:0 15px;color:#333;text-decoration:none;">Home</a> <a href="about.html" style="margin:0 15px;color:#333;text-decoration:none;">About</a> <a href="projects.html" style="margin:0 15px;color:#333;text-decoration:none;">Projects</a> <a href="cv.html" style="margin:0 15px;color:#3a5bcc;font-weight:600;text-decoration:none;">CV</a> <a href="contact.html" style="margin:0 15px;color:#333;text-decoration:none;">Contact</a>
+</nav>
+<!-- CV Timeline -->
+<div style="margin-top:120px;text-align:center;font-family:'Poppins',sans-serif;">
+  <h1 style="color:#3a5bcc;">Experience</h1>
+  <a href="files/Bhargavi_Manyala_Resume.pdf" style="display:inline-block;margin:10px 0 30px;color:#3a5bcc;text-decoration:none;font-weight:600;">
+     📄 Resume Overview
+  </a>
+
+  <div class="timeline">
+    <div class="item left" style="animation-delay:0.1s;">
+      <h3 class="anchored">🛡️ Amazon — Abuse Specialist</h3>
+      <p>Apr 2022 – Apr 2023</p>
+      <p>Investigated fraud, analyzed transactions, and improved reporting with SQL.</p>
+    </div>
+
+    <div class="item right" style="animation-delay:0.3s;">
+      <h3 class="anchored">⚖️ Verity — Legal &amp; Compliance Trainee</h3>
+      <p>Aug 2021 – Feb 2023</p>
+      <p>Supported governance reports and corporate documentation.</p>
+    </div>
+
+    <div class="item left" style="animation-delay:0.5s;">
+      <h3 class="anchored">🏢 Rebridz Realtors — Investment Consultant</h3>
+      <p>May 2020 – Jun 2020</p>
+      <p>Guided clients on property investments and ROI evaluation.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Styles -->
+<style>
+body {
+  background: linear-gradient(180deg, #f6f8ff, #eef3fb);
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Timeline line */
+.timeline {
+  position: relative;
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 20px 0;
+}
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  background: #a7c7ff;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+/* Each timeline item */
+.item {
+  position: relative;
+  width: 50%;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  opacity: 0;
+  animation: fadeIn 0.8s ease forwards;
+}
+.item.left { left: 0; text-align: right; }
+.item.right { left: 50%; }
+
+.item h3 {
+  color: #3a5bcc;
+  margin: 5px 0;
+  font-size: 1em;
+}
+.item p {
+  color: #555;
+  font-size: 0.95em;
+  margin: 4px 0;
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .timeline::after { left: 10px; }
+  .item { width: 100%; text-align: left; padding-left: 40px; }
+}
+</style>
 
 
 
