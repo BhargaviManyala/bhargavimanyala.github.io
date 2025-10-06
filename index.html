@@ -141,11 +141,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- Centered Section -->
 <div class="intro-section">
 <h1>
-Hi Bhargavi
+Hi, I’m Bhargavi
 </h1>
 <p><img src="images/bhargavi.jpg" alt="Bhargavi" class="profile-pic"></p>
+<p class="intro-text">
+Passionate about transforming ideas into impactful solutions through innovation and thoughtful design.
+</p>
 <div class="button-container">
-<pre><code>&lt;a href="explore.html" class="explore-button"&gt;Explore Me&lt;/a&gt;</code></pre>
+<pre><code>&lt;a href="explore.html" class="explore-button"&gt;Explore Me →&lt;/a&gt;</code></pre>
 </div>
 </div>
 <!-- Light Theme Styling -->
@@ -181,7 +184,7 @@ body {
   font-size: 2.8em;
   font-weight: 700;
   color: #3a5bcc;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 /* Profile Image */
@@ -192,7 +195,16 @@ body {
   object-fit: cover;
   border: 4px solid #a7c7ff;
   box-shadow: 0 4px 12px rgba(150, 180, 255, 0.3);
-  margin-bottom: 35px;
+  margin-bottom: 20px;
+}
+
+/* Intro Text */
+.intro-text {
+  font-size: 1.1em;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 35px auto;
+  line-height: 1.6;
 }
 
 /* Explore Button */
@@ -220,6 +232,10 @@ body {
   .profile-pic {
     width: 130px;
     height: 130px;
+  }
+  .intro-text {
+    font-size: 1em;
+    padding: 0 20px;
   }
 }
 </style>
