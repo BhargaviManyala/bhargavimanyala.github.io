@@ -26,5 +26,12 @@
     "title": "Projects",
     "section": "",
     "text": "Developed a feasibility model using demand simulation and financial forecasting for a new microbrewery in Austin.\n  \n\n  \n    \n    Used Python to simulate and optimize investment portfolios for improved risk-adjusted returns using mean-variance analysis.\n  \n\n  \n    \n    Created Power BI dashboards with SQL integration to visualize and track key performance metrics for business analytics.\n  \n\n  \n    \n    Applied Monte Carlo methods in R to model uncertainty in financial projections and support strategic investment decisions."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Home About Projects CV Contact\n\n\n\n  \n    🍺 Microbrewery Business Case\n    Developed a feasibility model using demand simulation and financial forecasting for a new microbrewery in Austin.\n  \n\n  \n    📊 Portfolio Optimization\n    Used Python to simulate and optimize investment portfolios for improved risk-adjusted returns using mean-variance analysis.\n  \n\n  \n    📈 SQL Dashboard Insights\n    Created Power BI dashboards with SQL integration to visualize and track key performance metrics for business analytics.\n  \n\n  \n    🔍 Monte Carlo Simulation\n    Applied Monte Carlo methods in R to model uncertainty in financial projections and support strategic investment decisions."
   }
 ]
